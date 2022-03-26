@@ -1,0 +1,93 @@
+#root{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-fluid{
+  padding-left: 0;
+}
+
+.header-container{
+  background-image: url("./images/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  position: relative;
+  z-index: 5;
+}
+
+.header .title{
+  color: #fff;
+}
+
+.search{
+  margin: 30px 0 50px;
+}
+
+.search input{
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  padding: 20px;
+  width: 50%;
+  min-width: 350px;
+}
+
+.chevRightIcon{
+  background-color: #000;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -50px;
+  padding: 0;
+  width: 60px;
+  height: 100%;
+}
+
+.chevRightIcon svg{
+  fill: #fff;
+}
+
+.search-results{
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: -75px;
+  padding: 20px;
+}
+
+.result{
+  border-right: 1px solid #ccc;
+  overflow-wrap: break-word;
+  margin-left: 0;
+}
+
+.result:last-child{
+  border-right: none;
+}
+
+.result h6{
+  color: #888;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.result p{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+  min-height: 60px;
+}
+
+@media (max-width: 576px){
+  .result{
+    border-right: none;
+    margin-bottom: 10px;
+  }
+}
+
+
+
